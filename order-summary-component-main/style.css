@@ -1,0 +1,173 @@
+/* table of contents
+  1. global styles
+  2. layout
+   2.1 main layout settings
+   2.2 main image
+   2.3 content
+   2.4 button
+   2.5 links
+  3. learning notes
+    3.1 :hover pseudo-class
+    3.2 width X max-width
+    3.3 font-weight
+*/
+
+/* =============
+   global styles
+   ============= */
+
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  color: gray;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+h1 {
+  color: black;
+  font-weight: 900;
+  margin: 0.5rem 0;
+}
+
+
+/* ======
+   layout
+   ====== */
+
+/* main layout settings */
+
+.isResponsive {
+  display: flex;
+  flex-shrink: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border-radius: 1rem;
+  max-width: 380px;
+  box-shadow: 0rem 0.5rem 1.6rem hsl(224, 23%, 55%);
+  ;
+}
+
+/* main image*/
+
+.heroImg {
+  border-radius: 0.8rem 0.8rem 0 0;
+  max-width: 100%;
+  display: block;
+}
+
+/* content */
+
+.cardContent {
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 0 0 1rem 1rem;
+  padding: 1.5rem;
+}
+
+.cardContent p {
+  margin: 0;
+  text-align: center;
+  padding: 0.25rem;
+}
+
+.pricingPlan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 0.75rem;
+  line-height: 1.2;
+}
+
+.chosenPlanAndPricing {
+  flex-grow: 2;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.chosenPlanAndPricing p {
+  color: black;
+  font-weight: 700;
+  flex-grow: 2;
+  text-align: left;
+}
+
+/* button */
+
+.cardContent button {
+  background-color: hsl(245, 75%, 52%);
+  width: 100%;
+  margin: 1.5rem;
+  padding: 0.75rem;
+  color: hsl(225, 100%, 94%);
+  font-weight: 700;
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0.5rem 1.6rem hsl(224, 23%, 55%);
+}
+
+.cardContent button:hover {
+  background-color: hsl(248, 56%, 65%);
+}
+
+/* links */
+.changePricingPlanLink {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.changePricingPlanLink:hover {
+  text-decoration: none;
+  color: hsl(248, 56%, 65%);
+}
+
+.cancelOrderLink {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.cancelOrderLink:hover {
+  color: black;
+}
+
+/* ======
+   learning notes
+   ====== */
+
+/* ====== :hover pseudo-class =====*/
+/* Be careful with placing the hover pseudo-class. ':hover element' is NOT the same
+as 'element:hover'. The first will apply :hover pseudo-class when focusing any element on the 
+page but the second will apply it only on the exact element. */
+
+/* ===== width X max-width =====*/
+/* Be careful about the differences between 'max-width' and 'width' property. 
+
+/* ===== font-weight ===== */
+/* Set only one (the lowest) font-weight in the body and then use recommended font-weights from 
+style-guide.md only on particular elements and/or classes. */
