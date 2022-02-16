@@ -58,17 +58,17 @@ style-guide.md only on particular elements and/or classes.
 - Alt-text descriptions - do NOT use "image of..."
 - Use focus visible styles at interactive elements, not only hovers.
 - Do a lighthouse audit before you upload the solution. 
-[W3C Accessibility Tutorials](https://www.w3.org/WAI/tutorials/)
-[The A11Y Project](https://www.a11yproject.com/)
-[ARIA Attributes](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes)
-[Scott O'Hara article about landmarks](https://www.scottohara.me/blog/2018/03/03/landmarks.html)
-[Lighthouse](https://developers.google.com/web/tools/lighthouse)
-[NVDA screen reader](https://www.nvaccess.org/download/)
+- [W3C Accessibility Tutorials](https://www.w3.org/WAI/tutorials/)
+- [The A11Y Project](https://www.a11yproject.com/)
+- [ARIA Attributes](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes)
+- [Scott O'Hara article about landmarks](https://www.scottohara.me/blog/2018/03/03/landmarks.html)
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+- [NVDA screen reader](https://www.nvaccess.org/download/)
 
 **how to guess the dimensoins better if you do not have the exact data - tips, tricks and links**
 - You can put all the design images on the design tool like Figma and try creating a box to kind of measure the size.
-[Perfect Pixel](https://www.welldonecode.com/perfectpixel/)
-[Greenshot](https://getgreenshot.org/)
+- [Perfect Pixel](https://www.welldonecode.com/perfectpixel/)
+- [Greenshot](https://getgreenshot.org/)
 
 ## Author
 
