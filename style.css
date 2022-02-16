@@ -6,10 +6,6 @@
    2.3 content
    2.4 button
    2.5 links
-  3. learning notes
-    3.1 :hover pseudo-class
-    3.2 width X max-width
-    3.3 font-weight
 */
 
 /* =============
@@ -154,21 +150,3 @@ h1 {
 .cancelOrderLink:hover {
   color: black;
 }
-
-/* ======
-   learning notes
-   ====== */
-
-/* ====== :hover pseudo-class =====*/
-/* Be careful with placing the hover pseudo-class. ':hover element' is NOT the same
-as 'element:hover'. The first will apply :hover pseudo-class when focusing any element on the 
-page but the second will apply it only on the exact element. */
-
-/* ===== width X max-width =====*/
-/* Be careful about the differences between 'max-width' and 'width' property.  Max-width is the
-upper limit over which the element will never grow but it does not force the element to be
-that size. */
-
-/* ===== font-weight ===== */
-/* Set only one (the lowest) font-weight in the body and then use recommended font-weights from 
-style-guide.md only on particular elements and/or classes. */

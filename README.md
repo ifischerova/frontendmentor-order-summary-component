@@ -38,7 +38,37 @@ Users should be able to:
 
 ### What I learned
 - I had another opportunity to practice flexbox. 
-- I have learned that some at first sight slight differences can have a huge impact on the result (max-width X width, :hover element X element:hover).
+
+#### My learning notes from & tips from the community in feedback to this challenge (in detail):
+ **:hover pseudo-class**
+Be careful with placing the hover pseudo-class. ':hover element' is NOT the same
+as 'element:hover'. The first will apply :hover pseudo-class when focusing any element on the 
+page but the second will apply it only on the exact element. */
+
+**width X max-width**
+Be careful about the differences between 'max-width' and 'width' property.  Max-width is the
+upper limit over which the element will never grow but it does not force the element to be
+that size.
+
+**font-weight**
+Set only one (the lowest) font-weight in the body and then use recommended font-weights from 
+style-guide.md only on particular elements and/or classes.
+
+**accessibility practices - tips, tricks and links**
+- Alt-text descriptions - do NOT use "image of..."
+- Use focus visible styles at interactive elements, not only hovers.
+- Do a lighthouse audit before you upload the solution. 
+[W3C Accessibility Tutorials](https://www.w3.org/WAI/tutorials/)
+[The A11Y Project](https://www.a11yproject.com/)
+[ARIA Attributes](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes)
+[Scott O'Hara article about landmarks](https://www.scottohara.me/blog/2018/03/03/landmarks.html)
+[Lighthouse](https://developers.google.com/web/tools/lighthouse)
+[NVDA screen reader](https://www.nvaccess.org/download/)
+
+**how to guess the dimensoins better if you do not have the exact data - tips, tricks and links**
+- You can put all the design images on the design tool like Figma and try creating a box to kind of measure the size.
+[Perfect Pixel](https://www.welldonecode.com/perfectpixel/)
+[Greenshot](https://getgreenshot.org/)
 
 ## Author
 
