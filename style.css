@@ -22,22 +22,31 @@ html {
 
 body {
   margin: auto;
+  padding: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background-color: hsl(225, 100%, 94%);
   font-family: "Red Hat Display", sans-serif;
-  color: gray;
+  color: #4e4d4d;
   font-weight: 500;
   line-height: 1.5;
-  font-size: 16px;
 }
 
 h1 {
   color: black;
   font-weight: 900;
   margin: 0.5rem 0;
+}
+
+h2 {
+  color: black;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0;
+  flex-grow: 2;
+  text-align: left;
 }
 
 
@@ -103,27 +112,29 @@ h1 {
 }
 
 .chosenPlanAndPricing p {
-  color: black;
-  font-weight: 700;
   flex-grow: 2;
+  font-size: 0.9rem;
   text-align: left;
+  padding: 0;
 }
 
 /* button */
 
-.cardContent button {
+.proceedToPaymentButton {
   background-color: hsl(245, 75%, 52%);
+  text-decoration: none;
+  text-align: center;
   width: 100%;
   margin: 1.5rem;
-  padding: 0.75rem;
-  color: hsl(225, 100%, 94%);
+  padding: 0.5rem;
+  color: hsl(225deg 96% 97%);
   font-weight: 700;
-  border: 0;
+  font-size: 0.9rem;
   border-radius: 0.5rem;
   box-shadow: 0rem 0.5rem 1.6rem hsl(224, 23%, 55%);
 }
 
-.cardContent button:hover {
+.proceedToPaymentButton:hover,.proceedToPaymentButton:focus {
   background-color: hsl(248, 56%, 65%);
 }
 
@@ -141,12 +152,12 @@ h1 {
 
 .cancelOrderLink {
   text-decoration: none;
-  color: hsl(224, 23%, 55%);
+  color: hsl(224deg 19% 33%);
   margin-bottom: 1.5rem;
   font-weight: 700;
   font-size: 0.9rem;
 }
 
-.cancelOrderLink:hover {
+.cancelOrderLink:hover, .cancelOrderLink:focus {
   color: black;
 }
