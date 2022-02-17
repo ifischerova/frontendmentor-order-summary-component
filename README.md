@@ -54,10 +54,17 @@ that size.
 Set only one (the lowest) font-weight in the body and then use recommended font-weights from 
 style-guide.md only on particular elements and/or classes.
 
+**font-size**
+If the default size of the font is set to 16px I do not need to set it on body element, because it is default. If I need to write it in CSS I should use rem units and not pixles. If I use pixels I will affect the customized setup of the user's browser.
+
 **accessibility practices - tips, tricks and links**
 - Alt-text descriptions - do NOT use "image of..."
 - Use focus visible styles at interactive elements, not only hovers.
 - Do a lighthouse audit before you upload the solution. 
+- It's important to include focus visible styles, not just hovers. Very important for keyboard 
+  users - make them nice and obvious like a bold outline.
+- It is better to use anchors and style them as button than to use the <button> html tag. 
+- Using the html tag for button makes sense in forms.  
 - [W3C Accessibility Tutorials](https://www.w3.org/WAI/tutorials/)
 - [The A11Y Project](https://www.a11yproject.com/)
 - [ARIA Attributes](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes)
