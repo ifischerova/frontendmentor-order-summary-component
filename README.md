@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub repository](https://github.com/Ivuska/frontendmentor-order-summary-component)
-- Live Site URL: [Order summary component](https://ivuska.github.io/frontendmentor-order-summary-component/)
+- Live Site URL: [Order summary component](https://ifischerova.github.io/frontendmentor-order-summary-component/)
 
 ## My process
 
